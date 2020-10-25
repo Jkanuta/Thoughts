@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="jk.myapp.mythoughts">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_mythoughts"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_mythoughts"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".thoughts.ThoughtsNote"
+            android:windowSoftInputMode="stateAlwaysVisible">
+        </activity>
+        <activity android:name=".thoughts.ThoughtsHome" />
+        <activity android:name=".thoughts.ForgotPassword"/>
+        <activity android:name=".thoughts.NewUser" />
+        <activity android:name=".thoughts.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

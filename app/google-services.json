@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "626784743866",
+    "firebase_url": "https://my-thoughts-1923f.firebaseio.com",
+    "project_id": "my-thoughts-1923f",
+    "storage_bucket": "my-thoughts-1923f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:626784743866:android:524e5ffe0e4ba78088ed83",
+        "android_client_info": {
+          "package_name": "jk.myapp.mythoughts"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "626784743866-in65arnfu3dtha9lfr45qf2gtqt33vt0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAYQ5slqW44e0xEg3ZPkgNIalkZ4OXOf8I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "626784743866-in65arnfu3dtha9lfr45qf2gtqt33vt0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
